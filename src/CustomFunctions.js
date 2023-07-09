@@ -12,5 +12,6 @@ function getEventType(eventTitle) {
   else if (startingCharacter === "^") return "Unintended Leisure";
   else if (startingCharacter === "~") return "Planning";
   else if (startingCharacter === "+") return "Learn";
+  else if (startingCharacter === "$") return "Freelance";
   else return "Other";
 }
